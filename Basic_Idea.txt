@@ -1,2 +1,149 @@
 / This Folder use for DSA associated
 
+*    Arrays & Strings
+
+        Basic Array And Strings Questions
+        Kadane’s Algorithm
+        Dutch National Flag Algorithm
+
+*    Multidimensional Arrays
+
+        Rotation based problems.
+        Traversal Based Problems
+
+*    Sorting Algorithms & Searching
+
+        Insertion Sort
+        Selection Sort.
+        Binary Search on Arrays and matrices
+
+*    Linked Lists
+
+        Reversal Problems
+        Sorting Problems.
+        Slow And Fast Pointers
+        Modify In Linked list
+
+*    Stacks and Queues
+
+        Implementation Problems
+        Application Problems.
+
+*    Binary Trees
+
+        Construction Of BST
+        Conversion Based Problems
+        Modification in BST
+        Standard Problems
+
+*   Recursion and Backtracking
+
+        Basic Recursion Questions
+        Divide And Conquer
+
+*   Priority Queues and Heaps
+
+        Implementation Based problems
+        Conversion based problems
+        K Based Problems
+
+*   Graphs
+
+        Graph Traversals – BFS And DFS
+        MST
+        Shortest Path Algorithms
+        Topological Sort
+        Graphs in Matrix
+
+*   Dynamic Programming
+
+        DP with Arrays
+        DP With Strings
+        DP With Maths
+        DP With Trees
+
+*   Some Advence Part
+
+        Breaking And Partition Based Problems
+        Counting Based Problems
+        Hashmaps
+        Tries
+        Bit Manipulation
+        Greedy
+        Circular Queues
+        String Algorithms like KMP and Z Algorithm
+        Number Theory
+
+
+/ My Competitive course Contains
+
+*        Data Structures Recap
+
+                Space Time Complexity Analysis
+                Data Structures & STL Containers
+                Bitmanipulation Basics
+                Bitmanipulation Problems
+
+*        Mathematics
+
+                Big Integers
+                Linear Recurrences & Matrix Exponentiation
+                Pigeonhole Principle
+                Mathematical Expectation
+                Inclusion-Exclusion
+
+*        Number Theory
+
+                Prime Numbers & Factorisation
+                Extended Euclidean Algorithm
+                Theorems in Number Theory
+                Combinatorics
+
+*        Algorithms
+
+                Recursion
+                Backtracking
+                Binary Search
+                Divide & Conquer
+                Greedy Algorithms
+                Meet in Middle
+
+*        Range Queries
+
+                Segment Trees
+                Lazy Propagation
+                Fenwick Trees
+                Square Root Decomposition
+
+*        Game Theory
+
+                Combinatorial Games
+                NIM Game
+
+*        Graph Theory
+
+                Graph Traversals
+                Graphs as Trees
+                Lowest Common Ancestor
+                Directed Graphs & SCC
+                Disjoint Set Union
+                Spanning Trees
+                Shortest Paths
+
+*        Dynamic Programming
+
+                Classical DP
+                Advanced DP
+
+*        Pattern Matching
+
+                Pattern & String Matching
+
+*        Advanced Topics
+
+                Geometric Algorithms
+                Interactive Problems
+                Random Randomisation
+                Policy Based Data Structures
+
+
