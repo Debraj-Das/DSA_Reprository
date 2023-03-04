@@ -45,7 +45,7 @@ void solve()
     try
     {
         // if (b == 0)
-        //     throw 1;
+        //     throw 1; 
         c = division(a, b);
         cout<<c<<endl;
     }
