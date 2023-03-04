@@ -30,7 +30,9 @@ int32_t main()
 
 void solve()
 {
-    
-    
+    int n;
+    cin>>n;
+    vector<vector<int>>v(n,vector<int>(n,0));   // decleartion and filled the 2D vector by Zeroes
+    cout<<(typeid(string).name() == typeid(int).name())<<endl; // This is for check the data type is same or not
     return ;
 }
