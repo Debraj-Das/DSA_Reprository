@@ -18,39 +18,71 @@ int main()
     return 0;
 }
 
-void heapify(int arr[], int n, int index)
+void max_Heapify(int arr[], int n, int index)   //# This Case index Start With 1 not Zero for Calculation Purpose
 {
     // if index is leaf node then return
     if ((2 * index) > n)
         return;
     // find out the min vaule index from the right and left child of the index node
-    int min_index = (2 * index == n) ? 2 * index : (arr[2 * index - 1] > arr[2 * index]) ? (2 * index) : (2 * index + 1);
+    int max_index = (2 * index == n) ? 2 * index : (arr[2 * index - 1] > arr[2 * index]) ? (2 * index) : (2 * index + 1);
     // Swap the index with min_index if the min_index vaule in bigger than the index
-    if (arr[index - 1] < arr[min_index - 1])
+    if (arr[index - 1] < arr[max_index - 1])
+    {
+        int temp = arr[index - 1];
+        arr[index - 1] = arr[max_index - 1];
+        arr[max_index - 1] = temp;
+    }
+
+    // Calling the max_Heapify function for min_index
+    max_Heapify(arr, n, max_index);
+    return;
+}
+
+void build_Max_Heap(int arr[], int n)
+{
+    // Try see all the index is satisfy the heap property so run max_Heapify for all element
+    for (int i = n; i > 0; i--)
+        max_Heapify(arr, n, i);
+
+    return;
+}
+
+
+
+void min_Heapify(int arr[], int n, int index)   //# This Case index Start With 1 not Zero for Calculation Purpose
+{
+    // if index is leaf node then return
+    if ((2 * index) > n)
+        return;
+    // find out the min vaule index from the right and left child of the index node
+    int min_index = (2 * index == n) ? 2 * index : (arr[2 * index - 1] < arr[2 * index]) ? (2 * index) : (2 * index + 1);
+    // Swap the index with min_index if the min_index vaule in bigger than the index
+    if (arr[index - 1] > arr[min_index - 1])
     {
         int temp = arr[index - 1];
         arr[index - 1] = arr[min_index - 1];
         arr[min_index - 1] = temp;
     }
 
-    // Calling the heapify function for min_index
-    printf(" %d %d\n", index, min_index);
-    heapify(arr, n, min_index);
+    // Calling the max_Heapify function for min_index
+    min_Heapify(arr, n, min_index);
     return;
 }
 
-void build_heap(int arr[], int n)
+void build_Min_Heap(int arr[], int n)
 {
-    // Try see all the index is satisfy the heap property so run heapify for all element
+    // Try see all the index is satisfy the heap property so run max_Heapify for all element
     for (int i = n; i > 0; i--)
-        heapify(arr, n, i);
+        min_Heapify(arr, n, i);
 
     return;
 }
+
+
 
 void solve()
 {
-    // n number of the element and take those element as input from user
+    // Take input size of the array and elements
     int n;
     scanf("%d", &n);
     int *arr = (int *)malloc(n * sizeof(int));
@@ -58,14 +90,25 @@ void solve()
     {
         scanf("%d", &arr[i]);
     }
-    // Convert the array to heap by build_heap function and importance thing I assumsed that index is start with 1 in bulinded function so at index time I take index-1 
-    build_heap(arr, n);
-    // print the heap
-    printf("Heap ::\n\t");
+
+    // Conversion of Max Heap
+    build_Max_Heap(arr, n); // Max Heap
+    // print the Max heap
+    printf("Max Heap ::\n\t");
     for (size_t i = 0; i < n; i++)
     {
         printf("%d ", arr[i]);
     }
+
+    // Conversion of Min Heap
+    build_Min_Heap(arr , n);
+    // Print the Min Heap
+    printf("\nMin Heap ::\n\t");
+    for (size_t i = 0; i < n; i++)
+    {
+        printf("%d ", arr[i]);
+    }
+
     free(arr);
 
     return;
