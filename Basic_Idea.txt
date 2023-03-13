@@ -77,6 +77,15 @@
 
 / My Competitive course Contains
 
+# In Competitive programming, We emphasize on Mathematic , Data Structures(for accurace and fast use STL , Graph) , Algorithm(very know and populare , some Advence)
+
+$ Commonly use the Mathematic part is -> Combinator , Set and relation , static and probabily , Algebra , Game Theory , some Advanced Mathematic part
+
+$ Data Structures -> Graph(VVI) and other Common one (but generally it used STL for Common one)
+
+$ Algorithm -> For Data Structures associated Algorithm(we use Stl Algorithm header file) but other then Algorithm are use like Greedy , Recursion and Backtracking , Divide and Conquer, Dynamic programming , some Advence Algorithm
+
+
 *        Data Structures Recap
 
                 Space Time Complexity Analysis
@@ -145,5 +154,11 @@
                 Interactive Problems
                 Random Randomisation
                 Policy Based Data Structures
+
+
+
+
+/ Some problem, which I did not do it 
+1. Minimize_the_Heights_II link -> https://www.geeksforgeeks.org/minimize-the-maximum-difference-between-the-heights/
 
 
