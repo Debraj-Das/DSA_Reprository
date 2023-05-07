@@ -1,3 +1,205 @@
+# Overview on Data Structures and Algorithms
+
+~ Some brief discussion on Data structure 
+Their are 3 type of mostly data structure present 
+*   1. Sequence Data -> 
+        a. Array
+        b. string   -> (it is Character of array but it is very very importance Data Structure)
+        c. link list
+    
+*   2. Associated Data ->
+        a. Tree     (Big and importance topic)
+        b. Graph     (Very very Vast topic) ** it is most Generally Data Structure
+        c. Hashing     (It is also very importance topic for key-vaule Application base)
+    
+*   3. Drived Data (It Create for modeling Real life Problem)
+        It actual depend on Problem (which type of use case need), Their are some Basic example 
+        a. Stack
+        b. Queue
+        c. Set
+        d. unorder_set
+        e. map 
+        f. unorder_map
+        g. Tries
+
+            etc
+
+#   some basic Algorithm On Data structure
+*        A data structure is a way of organizing and storing data in a computer memory
+*           so that it can be accessed and modified efficiently. 
+
+Some basic operations that can be performed on data structures are :
+
+~     Insertion:   Adding a new element to a data structure at a specified position.
+~     Searching:   Finding an element in a data structure based on some criteria.
+~     Deletion:    Removing an existing element from a data structure at a specified position.
+~     Traversal:   Visiting each element of a data structure once for some purpose.
+
+$ Other than some Operating which are used for specific Cases
+    1. Create
+    2. Selection
+    3. Update
+    4. Sort 
+    5. Merge
+    6. Split
+
+/ This part I discussion about Array
+    It can be defined -> static , dynamic , Resizable
+
+
+
+
+# This is an extensive list of advanced data structures
+
+*Graphs
+*Hash Tables
+
+Tree
+    * some Tree example
+    Segment Trees
+    Fenwick Trees (Binary Indexed Trees)
+    Suffix Trees and Suffix Arrays
+    AVL Trees
+    Red-Black Trees
+    B-Trees
+    Link-Cut Trees   
+    Range Trees
+    Quad Trees
+    Octrees
+    KD-Trees
+    Interval Trees
+    Binary Space Partitioning (BSP) Trees
+    Weight-Balanced Trees
+    Splay Trees
+    Cartesian Trees
+    Tangle Trees
+    Bloom Trees
+    Multiway Trees
+    2-3 Trees
+    AA Trees
+    Dancing Trees
+    Exponential Trees
+
+Heaps 
+    * some example 
+    Fibonacci Heaps
+    Binomial Heaps
+    Leftist Heaps
+    Skew Heaps
+    Pairing Heaps
+    Treaps (A treap is a data structure that combines a binary tree and a heap) 
+        (treaps is also name is randomized Binary Searching Tree)
+
+
+Tries
+    * some example
+    X-fast Tries
+    Y-fast Tries
+    Fusion Trees
+    B-tries (Compressed Tries)
+
+
+    Skip Lists
+    Disjoint Sets (Union-Find)
+    Bloom Filters
+    Trie Hashing
+    Rope (String) Data Structures
+    Persistent Data Structures
+    Compressed Data Structures
+    Ropes
+    Dancing Links (DLX)
+    Cuckoo Filters
+    Suffix Automata
+    Burrows-Wheeler Transform (BWT)
+    FM-Index (Full-text index in external memory)
+
+
+
+
+/ DSA -> 3 part Divided
+1. Data structure 
+2. Algorithm
+3. Mathematic and Calculation
+
+# 1. DS (which I know until now(16 April 2023))
+    1. Array
+    2. Link list
+    3. Tree (Binary Tree and Ordered Tree and other type)
+    4. Binary Tree -> BST -> Balanced BST -> AVL Tree , Red Black Tree
+    5. Heaps -> Binary Heap , Leftist Heap , Fibonacci Heap , Binomial Heap
+    6. Skip list
+    7. Disjoint set Union 
+    8. Tries
+    *9.Graph 
+    ! DS Associated algorithm 
+        1. Create
+        2. Searching
+        3. Insertion
+        4. Traversal
+        5. Deletion
+        And some other algorithm specific to DS
+            Merge , Sort , Reverse , MST , Shortest path Finding , Cycle Find
+        
+# 2. Algorithm (which I know until now(16 April 2023))  (know algorithm)
+    1. Sorting 
+    2. Binary Searching
+    3. Recursion
+    4. Divided and Conquer -> Induction
+    5. Backtracking -> Choice and Desition 
+   *6. Dynamic Programming -> Optimal subproblem
+    7. Greedy
+    8. Meet in Middle and Median Finding
+    9. String Pattern Matching
+    10. Sliding Window and many other Name algorithm, like - Kadane algorithm etc
+
+# 3. Mathematic and Calculation
+    1. Complexity (Asympotic and Amertic)
+    2. Recurrence
+    3. Bit manupulation
+    4. Pigehole Principal,  Mathematic Expection , Inclusion and Exclusion
+    5. Number Theory
+    6. Game Theory 
+   *7. Purmutation and Combination
+
+# Some other advanced DS and algorithm Combination 
+    *1. Range Queries
+    2. Geometric algorithm
+    3. Intertion Problem
+    4. Random randomized
+
+$ Some other importance things of language base DS and Algorithm like
+    *1. STL ,  Policy base DS of C++
+    2. Python Libary
+    3. Jave standerd Libary
+
+
+/ Some basic Overview on Algorithm 
+
+Algorithm is very vast topic because it envolving depends on Problem.
+So, We discusse some of common alogrithm name (which I utill listen their name)
+
+~   1. Mathematic -> Combinator , Probability and static , Discreate math, etc
+~   2. Divided and Conquer , Recursion and backtracking, Dynamic Problem(memorisation) 
+~   3. Searching , sorting , Patter and string Searching
+~   4. Sliding window, Two pointer, slow and fast pointer, Bitmanupulation, Meet in Middle, Shortest Path
+
+Other then some Algorithm specific for Some type of Problem like ->
+    Kadane's Algorithm 
+    Dutch National Flag Algorithm 
+    KMP and Z Algorithm
+    Kruskal’s Algorithm
+    Dijkstra’s Algorithm
+    Sexy Move
+    Convex Hull
+
+
+* Discrete mathematics is a branch of mathematics that deals with finite or discrete structures such as integers, graphs and logic.
+
+*Discrete mathematics is the study of mathematical structures that can be considered "discrete" (in a way analogous to discrete variables, having a bijection with the set of natural numbers) rather than "continuous" (analogously to continuous functions).
+
+
+
+
 / This Folder use for DSA associated
 
 *    Arrays & Strings

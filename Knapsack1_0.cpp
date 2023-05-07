@@ -31,30 +31,36 @@ int32_t main()
     return 0;
 }
 
+vector<vector<int>> dp;
+
+int knapsack(int n, int w, int wt[], int val[])
+{
+    // base case
+    if (n == 0 || w == 0)
+        return 0;
+    // memoization
+    if (dp[w][n] != -1)
+    {
+        return dp[w][n];
+    }
+    // choice diagram
+    if (wt[n - 1] <= w)
+    {
+        return dp[w][n] = max(val[n - 1] + knapsack(n - 1, w - wt[n - 1], wt, val), knapsack(n - 1, w, wt, val));
+    }
+    else
+        return dp[w][n] = knapsack(n - 1, w, wt, val);
+}
+
 void solve()
 {
-    int n;
-    cin >> n;
-    vector<vector<int>> a(n, vector<int>(n)), b(n, vector<int>(n)), c(n, vector<int>(n));
-    f(i, 0, n) f(j, 0, n) cin >> a[i][j];
-    f(i, 0, n) f(j, 0, n) cin >> b[i][j];
-
-    // multiply a and b and store in c (matrix multiplication)
-    f(i, 0, n)
-    {
-        f(j, 0, n)
-        {
-            // initialize c[i][j] to 0
-            c[i][j] = 0;
-            // calculate c[i][j]
-            f(k, 0, n) c[i][j] += a[i][k] * b[k][j];
-            // print c[i][j]
-            cout << c[i][j] << " ";
-        }
-        // print new line for new row
-        cout << el;
-    }
+    int n, w;
+    cin >> n >> w;
+    int wt[n], val[n];
+    f(i, 0, n) cin >> wt[i];
+    f(i, 0, n) cin >> val[i];
+    dp.resize(w + 1, vector<int>(n + 1, -1));
+    cout << knapsack(n, w, wt, val) << el;
 
     return;
 }
-
