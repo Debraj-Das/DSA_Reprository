@@ -15,3 +15,14 @@
 Prims Algorithm
 Kruskhal Algorithm
 Dijksta Algorithm
+
+
+
+
+
+? unsolved Data structure Problems
+ 
+1. Minimize_the_Heights_II link -> https://www.geeksforgeeks.org/minimize-the-maximum-difference-between-the-heights/
+2. 
+
+

@@ -6,11 +6,13 @@ Their are 3 type of mostly data structure present
         a. Array
         b. string   -> (it is Character of array but it is very very importance Data Structure)
         c. link list
+        d. Skip list
+        e. Hashing     (It is also very importance topic for key-vaule Application base)
+
     
 *   2. Associated Data ->
         a. Tree     (Big and importance topic)
         b. Graph     (Very very Vast topic) ** it is most Generally Data Structure
-        c. Hashing     (It is also very importance topic for key-vaule Application base)
     
 *   3. Drived Data (It Create for modeling Real life Problem)
         It actual depend on Problem (which type of use case need), Their are some Basic example 
@@ -356,11 +358,4 @@ $ Algorithm -> For Data Structures associated Algorithm(we use Stl Algorithm hea
                 Interactive Problems
                 Random Randomisation
                 Policy Based Data Structures
-
-
-
-
-/ Some problem, which I did not do it 
-1. Minimize_the_Heights_II link -> https://www.geeksforgeeks.org/minimize-the-maximum-difference-between-the-heights/
-
 
