@@ -1,6 +1,6 @@
 import os
 
-s = "Rearrange an array with extra space"
+s = "Fizz Buzz"
 exe = ".cpp"
 
 s = s.replace(" ", "_")
