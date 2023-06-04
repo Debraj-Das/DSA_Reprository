@@ -1,6 +1,6 @@
 import os
 
-s = "Fizz Buzz"
+s = "0  1 Knapsack Problem"
 exe = ".cpp"
 
 s = s.replace(" ", "_")
