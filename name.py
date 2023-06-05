@@ -1,6 +1,6 @@
 import os
 
-s = "0  1 Knapsack Problem"
+s = "Reverse Linked List II"
 exe = ".cpp"
 
 s = s.replace(" ", "_")
