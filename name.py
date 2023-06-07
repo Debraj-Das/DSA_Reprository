@@ -1,6 +1,6 @@
 import os
 
-s = "Reverse Linked List II"
+s = "Find First and Last Position of Element in Sorted Array"
 exe = ".cpp"
 
 s = s.replace(" ", "_")
@@ -11,5 +11,5 @@ if not os.path.exists(s):
     print(f"File {s} created")
 else:
     print("File exists")
-    
+
 os.system(f"code {s}")
