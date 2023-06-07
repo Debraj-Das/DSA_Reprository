@@ -1,6 +1,6 @@
 import os
 
-s = "Find First and Last Position of Element in Sorted Array"
+s = "Count Complete Tree Nodes"
 exe = ".cpp"
 
 s = s.replace(" ", "_")
