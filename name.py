@@ -1,6 +1,6 @@
 import os
 
-s = "Count Complete Tree Nodes"
+s = "Time Needed to Inform All Employees"
 exe = ".cpp"
 
 s = s.replace(" ", "_")
