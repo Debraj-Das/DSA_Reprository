@@ -1,6 +1,6 @@
 import os
 
-s = "Time Needed to Inform All Employees"
+s = "Topologic Sort"
 exe = ".cpp"
 
 s = s.replace(" ", "_")

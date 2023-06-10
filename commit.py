@@ -9,7 +9,7 @@ for root, dirs, files in os.walk("."):
 os.system("git add .")
 
 #* message for the commit
-s = "Completed the 2D Matrix and Some part of Graphs"
+s = "Completed the Graph Problems Questions"
 
 # commit the changes with a message
 os.system(f"git commit -m \"{s}\"")
