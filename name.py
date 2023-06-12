@@ -1,6 +1,6 @@
 import os
 
-s = "Topologic Sort"
+s = "Segment Tree Template"
 exe = ".cpp"
 
 s = s.replace(" ", "_")
