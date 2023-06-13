@@ -1,6 +1,6 @@
 import os
 
-s = "Segment Tree Template"
+s = "Sudoku Solver"
 exe = ".cpp"
 
 s = s.replace(" ", "_")

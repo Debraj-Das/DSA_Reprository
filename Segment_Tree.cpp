@@ -117,7 +117,7 @@ e.g: min Query
 
 */
 
-#include "./Header/debug.hpp"
+#include "Random.hpp"
 using namespace std;
 
 template <typename T>
@@ -131,7 +131,7 @@ void solve();
 int main()
 {
     int i = 0 ;
-    time(15)
+    time(4)
     {
         i++;
         solve();
@@ -143,14 +143,14 @@ int main()
 
 void solve()
 {
-    int n = getRandomNumber(1, 1000);
-    vector<int> v = RandomVector(n, 1, 10000000);
+    int n = randomNumber(1, 1000);
+    vector<int> v = randomVector(n, 1, 10000000);
     SegmentTree<int, merge> st(v);
-    int q = getRandomNumber(10, 200), l, r, ans;
+    int q = randomNumber(10, 200), l, r, ans;
     while (q--)
     {
-        l = getRandomNumber(0, n - 1);
-        r = getRandomNumber(l, n - 1);
+        l = randomNumber(0, n - 1);
+        r = randomNumber(l, n - 1);
         ans = 0;
         for (int i = l; i <= r; i++)
             ans += v[i];
@@ -168,8 +168,8 @@ void solve()
         }
         if(q%10==0)
         {
-            int index = getRandomNumber(0, n - 1);
-            int value = getRandomNumber(1, 10000000);
+            int index = randomNumber(0, n - 1);
+            int value = randomNumber(1, 10000000);
             v[index] = value;
             st.update(index, value);
         }

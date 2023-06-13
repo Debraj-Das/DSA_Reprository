@@ -1,7 +1,7 @@
-#include<bits/stdc++.h>
 
 #ifndef DEBUG_HPP
 #define DEBUG_HPP
+#include<bits/stdc++.h>
 
 #define bug(...)       __f (#__VA_ARGS__, __VA_ARGS__)
 template <typename Arg1>
@@ -25,27 +25,5 @@ template <class T> void _p(std::multiset <T> v) {std::cerr << "[ "; for (T i : v
 template <class T, class V> void _p(std::map <T, V> v) {std::cerr << "[ "; for (auto i : v) {_p(i); std::cerr << " ";} std::cerr << "]";}
 template <class T, class V> void _p(std::unordered_map <T, V> v) {std::cerr << "[ "; for (auto i : v) {_p(i); std::cerr << " ";} std::cerr << "]";}
 
-std::mt19937 rng(std::chrono::steady_clock::now().time_since_epoch().count());
-int getRandomNumber(int l = 0, int r = 1e9) { return std::uniform_int_distribution<int>(l, r)(rng); }
-std::vector<int> RandomVector(int n, int l = 0, int r = 1e9)
-{
-	std::vector<int> v(n);
-	for (int i = 0; i < n; i++)
-		v[i] = getRandomNumber(l, r);
-	return v;
-}
 
-void RandomArray(int arr[], int n, int l = 0, int r = 1e9)
-{
-	for (int i = 0; i < n; i++)
-		arr[i] = getRandomNumber(l, r);
-	return;
-}
-
-void shuffle(std::vector<int> &v) { std::shuffle(v.begin(), v.end(), rng); }
-
-void shuffle(int a[], int n) { std::shuffle(a, a + n, rng); }
-
-#define time(n) clock_t tt = clock(); while ((double)(clock() - tt) / CLOCKS_PER_SEC < n)
-
-#endif 
+#endif  // DEBUG_HPP
