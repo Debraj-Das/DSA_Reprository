@@ -1,6 +1,6 @@
 import os
 
-s = "Sudoku Solver"
+s = "Rod cutting"
 exe = ".cpp"
 
 s = s.replace(" ", "_")
