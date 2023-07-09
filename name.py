@@ -1,6 +1,6 @@
 import os
 
-s = "Rod cutting"
+s = "Graph DFS"
 exe = ".cpp"
 
 s = s.replace(" ", "_")

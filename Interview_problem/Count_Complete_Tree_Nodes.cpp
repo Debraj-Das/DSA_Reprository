@@ -89,7 +89,8 @@ public:
     }
 };
 
-#include "./Header/debug.hpp"
+#include "../Header/debug.hpp"
+#include "../Header/Random.hpp"
 
 int32_t main()
 {
@@ -104,9 +105,9 @@ int32_t main()
     Solution ob;
     time(1)
     {
-        n = getRandomNumber(0, 200);
+        n = randomNumber(0, 200);
         v.clear();
-        v = RandomVector(n, 1, 200);
+        v = randomVector(n, 1, 200);
         root = root->create(v);
         if (ob.countNodes(root) != n)
         {
