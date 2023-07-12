@@ -1,9 +1,11 @@
 # For Ignore Folder
 .vscode
-DSA_Programming
 
 # For Ignore Files
 *.exe
+
 input.txt
 output.txt
-*.pdf
+name.py
+remove_exe.py
+commit.py
