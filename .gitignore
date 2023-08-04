@@ -1,11 +1,8 @@
-# For Ignore Folder
-.vscode
-
-# For Ignore Files
+# Common Ignore 
 *.exe
+.*
 
-input.txt
-output.txt
+# Specific Ignore
+
+auto.py
 name.py
-remove_exe.py
-commit.py
