@@ -26,7 +26,7 @@ def create(s, exe):
     os.system(f"code {s}")
 
 
-name = "Subsets"
+name = "Populating Next Right Pointers in Each Node"
 
 extention = "cpp"
 

@@ -28,6 +28,6 @@ def main(files, message):
 
 
 not_move_files = {"Rough.cpp", "test.cpp"}
-commit_message = "Complete the 8 question of middle level in leetcode"
+commit_message = "Practice leetcode midium problems"
 
 main(not_move_files, commit_message)
