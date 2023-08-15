@@ -16,6 +16,7 @@ def modified(s, exe):
 
     return name+"."+exe
 
+
 def create(s, exe):
     s = modified(s, extention)
     import os
@@ -26,7 +27,7 @@ def create(s, exe):
     os.system(f"code {s}")
 
 
-name = "Populating Next Right Pointers in Each Node"
+name = "arry is good"
 
 extention = "cpp"
 
