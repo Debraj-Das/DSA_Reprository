@@ -63,6 +63,7 @@ int32_t main()
 
 inline void solve()
 {
+    cout<<"Hello World!"<<el;
     
     
     return;

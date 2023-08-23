@@ -16,7 +16,6 @@ def modified(s, exe):
 
     return name+"."+exe
 
-
 def create(s, exe):
     s = modified(s, extention)
     import os
@@ -25,7 +24,6 @@ def create(s, exe):
     else:
         print(f"File {s} already exists")
     os.system(f"code {s}")
-
 
 name = "arry is good"
 
