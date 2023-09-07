@@ -52,3 +52,17 @@ Understanding data structures and algorithms is essential for developing efficie
 To master data structures and algorithms, it is important to study their properties, understand their implementations, and analyze their time and space complexities. This knowledge allows programmers to choose the most appropriate data structures and algorithms for specific tasks, resulting in efficient and scalable solutions to computational problems.
 
 </details>
+
+
+## Some Important Materials
+- [Elements of Programming Interviews](./Material/interview/Elements%20of%20Programming%20Interviews.pdf)
+- [Cracking the Coding Interview](./Material/interview/Cracking-the-Coding-Interview-6th-Edition-189-Programming-Questions-and-Solutions.pdf)
+
+## 📌Problem Practise Materials
+- [Master the Coding Interview](./Material/interview/Mastering+the+Coding+Interview+(FAANG)+-+Course+Outline.pdf)
+
+## Some Practise websites
+- [Leetcode](https://leetcode.com/problemset/all/)
+- [Top 150 Inverview Questions](https://leetcode.com/problem-list/top-interview-questions/)
+- [GeeksforGeeks](https://practice.geeksforgeeks.org/explore?page=1&sortBy=difficulty)
+- [HackerRank](https://www.hackerrank.com/)
