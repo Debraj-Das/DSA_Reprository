@@ -23,6 +23,6 @@ def main(files, message):
 
 
 not_move_files = {"Rough.cpp", "test.cpp"}
-commit_message = "Practice of DSA"
+commit_message = "added some importance book for refference matrial"
 
 main(not_move_files, commit_message)
